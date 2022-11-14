@@ -301,7 +301,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
                   if fsize>config.SPLIT_FILE:
                       await bot.edit_message(ev.chat,message,text=f'{ffname} Demasiado Grande, Debe Comprimir\nSe Cancelo La Subida')
                       return
-                  await bot.edit_message(ev.chat,message,text=f'⬆️Subiendo {ffname}...')
+                  await bot.edit_message(ev.chat,message,text=f'⬆️Subiendo archivo {ffname}...')
                   result:RepoUploaderResult = None
                   def uploader_func():
                       result = session.upload_file(ffullpath,progress_func=upload_progress,progress_args=(bot,ev,message,loop))
