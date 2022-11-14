@@ -342,7 +342,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             await bot.send_file(ev.chat,txtsendname,
                                 caption=f'{txtsendname}',
                                 thumb='thumb.png',
-                                buttons=[Button.url('Soporte','https://t.me/RichZC')])
+                                buttons=[Button.url('Soporte','https://t.me/YosmelGarcia')])
             for fitem in listdir:
                 try:
                     os.unlink(fitem)
