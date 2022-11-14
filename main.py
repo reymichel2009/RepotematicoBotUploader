@@ -167,8 +167,8 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
     username = ev.message.chat.username
     text = ev.message.text
 
-    #if username not in config.ACCES_USERS:YosmelGarcia
-    if username not in tl_admin_users:YosmelGarcia
+    #if username not in config.ACCES_USERS:@YosmelGarcia
+    if username not in tl_admin_users:@YosmelGarcia
         await bot.send_message(ev.chat.id,'🛑𝓝𝓸 𝓣𝓲𝓮𝓷𝓮 𝓐𝓬𝓬𝓮𝓼𝓸, 𝓬𝓸𝓷𝓽𝓪𝓬𝓽𝓪𝓻 𝓪 @YosmelGarcia🛑')
         return
 
@@ -217,7 +217,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
         pass
     if '/add' in text and username in godlist:
         usernameadd = text.split(' ')[1]
-        tl_admin_users.append(usernameadd)
+        tl_admin_users.append(YosmelGarcia)
         print(tl_admin_users)
     
     if '/ban' in text and username in godlist:
