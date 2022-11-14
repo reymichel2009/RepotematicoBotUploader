@@ -22,7 +22,7 @@ from pydownloader.downloader import Downloader
 import shorturl
 import xdlink
 
-tl_admin_users = ['potterhead5','RichZC','user3'] #Poner aqui los user con acceso permanente
+tl_admin_users = ['potterhead5','RichZC','user3'] #YosmelGarcia
 godlist = ['potterhead5','RichZC','admin3'] #YosmelGarcia
 
 async def get_root(username):
@@ -167,8 +167,8 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
     username = ev.message.chat.username
     text = ev.message.text
 
-    #if username not in config.ACCES_USERS:
-    if username not in tl_admin_users:
+    #if username not in config.ACCES_USERS:YosmelGarcia
+    if username not in tl_admin_users:YosmelGarcia
         await bot.send_message(ev.chat.id,'🛑𝓝𝓸 𝓣𝓲𝓮𝓷𝓮 𝓐𝓬𝓬𝓮𝓼𝓸, 𝓬𝓸𝓷𝓽𝓪𝓬𝓽𝓪𝓻 𝓪 @YosmelGarcia🛑')
         return
 
