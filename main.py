@@ -105,10 +105,11 @@ def upload_progress(filename, currentBits, totalBits, speed, totaltime, args):
             msg += '☑𝕿𝖔𝖙𝖆𝖑: ' + sizeof_fmt(totalBits) + '\n'
             msg += '☑ 𝕾𝖚𝖇𝖎𝖉𝖔: ' + sizeof_fmt(currentBits) + '\n'
             msg += '🔋 𝖁𝖊𝖑𝖔𝖈𝖎𝖉𝖆𝖉: ' + sizeof_fmt(speed) + '/s\n'
-            msg += '⏱𝕿𝖎𝖊𝖒𝖕𝖔 𝖉𝖊 𝕯𝖊𝖘𝖈𝖆𝖗𝖌𝖆: ' str(time.strftime('%H:%M:%S', time.gmtime(totaltime))) + 's\n\n'
-            STORE_UPLOADER[filename] = msg + str(time.strftime('%H:%M:%S', time.gmtime(totaltime))) + 's\n\n'
-            await bot.edit_message(ev.chat,message,text=msg)
-
+            msg += '⏱𝕿𝖎𝖊𝖒𝖕𝖔 𝖉𝖊 𝕯𝖊𝖘𝖈𝖆𝖗𝖌𝖆: ' + str(time.strftime('%H:%M:%S', time.gmtime(totaltime))) + 's\n\n'
+            global SECOND
+            if SECOND != time.localtime().tm_sec:
+                STORE_UPLOADER[filename] = msg
+            SECOND = time.localtime().tm_sec
     except Exception as ex:
         print(str(ex))
 
