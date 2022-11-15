@@ -32,7 +32,7 @@ async def get_root(username):
 
 async def send_root(bot,ev,username):
     listdir = await get_root(username)
-    reply = f'📄 {username}/ ({len(listdir)} 🗂𝐿𝐼𝒮𝒯𝒜𝒟𝒪𝒮 𝒟𝐸 𝒜𝑅𝒞𝐻𝐼𝒱𝒪𝒮🗂) 📄\n\n'
+    reply = f'📄 {username}/ ({len(listdir)} ⛓𝐋𝐈𝐒𝐓𝐀𝐃𝐎 𝐃𝐄 𝐀𝐑𝐂𝐇𝐈𝐕𝐎𝐒⛓) 📄\n\n'
     i=-1
     for item in listdir:
         i+=1
@@ -99,7 +99,7 @@ def upload_progress(filename, currentBits, totalBits, speed, totaltime, args):
         loop = args[3]
 
         if True:
-            msg = '📡 𝐒𝐮𝐛𝐢𝐞𝐧𝐝𝐨 𝐚𝐫𝐜𝐡𝐢𝐯𝐨 𝐚 𝐥𝐚 𝐧𝐮𝐛𝐞☁️....\n'
+            msg = '📡𝕊𝕌𝔹𝕀𝔼ℕ𝔻𝕆 𝔸ℝℍℂ𝕀𝕍𝕆 𝔸 𝕃𝔸 ℕ𝕌𝔹𝔼☁️....\n'
             msg += '📥 𝔄𝔯𝔠𝔥𝔦𝔳𝔬: ' + filename + ''
             msg += '\n' + text_progres(currentBits, totalBits) + ' ' + str(porcent(currentBits, totalBits)) + '%\n' + '\n'
             msg += '☑𝕿𝖔𝖙𝖆𝖑: ' + sizeof_fmt(totalBits) + '\n'
@@ -114,7 +114,7 @@ def upload_progress(filename, currentBits, totalBits, speed, totaltime, args):
         print(str(ex))
 
 async def compress(bot,ev,text,message,username):
-        await  bot.edit_message(ev.chat,message,'📚𝑪𝒐𝒎𝒑𝒓𝒊𝒎𝒊𝒆𝒏𝒅𝒐...')
+        await  bot.edit_message(ev.chat,message,'📚𝐂𝐎𝐌𝐏𝐑𝐈𝐌𝐈𝐄𝐍𝐃𝐎 𝐀𝐑𝐂𝐇𝐈𝐕𝐎...')
         text = str(text).replace('/rar ','')
         index = 0
         range = 0
@@ -171,7 +171,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
     #if username not in config.ACCES_USERS:
     if username not in tl_admin_users:
-        await bot.send_message(ev.chat.id,'🛑𝓝𝓸 𝓣𝓲𝓮𝓷𝓮 𝓐𝓬𝓬𝓮𝓼𝓸, 𝓬𝓸𝓷𝓽𝓪𝓬𝓽𝓪𝓻 𝓪 @YosmelGarcia🛑')
+        await bot.send_message(ev.chat.id,'😐ℕ𝕆 𝕋𝕀𝔼ℕ𝔼𝕊 𝔸𝕊ℂ𝔼𝕊𝕆 ℂ𝕆ℕ𝕋𝔸ℂ𝕋𝔸 𝔸 ℂ𝕆ℕ 𝕄𝕀 𝔻𝔼𝕊𝔸ℝℝ𝕆𝕃𝔸𝔻𝕆ℝ😐:@YosmelGarcia')
         return
 
     if not os.path.isdir(config.ROOT_PATH + username):
@@ -213,7 +213,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
         pass
 
     if '/start' in text:
-        reply = '👋𝕳𝖔𝖑𝖆 𝕭𝖎𝖊𝖓𝖛𝖊𝖓𝖎𝖉𝖔 𝖆 𝖊𝖘𝖙𝖊 𝖇𝖔𝖙 𝖒𝖎 𝖈𝖗𝖊𝖆𝖉𝖔𝖗 𝖊𝖘 @YosmelGarcia👋\𝕰𝖓𝖛𝖎𝖆𝖒𝖊 𝖊𝖓𝖑𝖆𝖈𝖊𝖘 𝖕𝖆𝖗𝖆 𝖉𝖊𝖘𝖈𝖆𝖗𝖌𝖆𝖗 𝖞 𝖘𝖚𝖇𝖎𝖗 𝖆 𝖑𝖆 𝖓𝖚𝖇𝖊 𝖑𝖚𝖊𝖌𝖔 𝖙𝖊 𝖒𝖆𝖓𝖉𝖆𝖗𝖊 𝖊𝖑 𝖆𝖗𝖈𝖍𝖎𝖛𝖔 𝖘𝖚𝖇𝖎𝖉𝖔 𝖈𝖔𝖓 𝖙𝖝𝖙 𝖊𝖓𝖈𝖗𝖎𝖕𝖙𝖆𝖉𝖔 𝖆 𝖝𝖉𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖊𝖗(descargas/subidas)\n\n'
+        reply = '🤖𝐇𝐎𝐋𝐀 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎 𝐀 𝐄𝐒𝐓𝐄 𝐁𝐎𝐓 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐄𝐒 @YosmelGarcia🤖\𝐄𝐍𝐕𝐈𝐀𝐌𝐄 𝐄𝐍𝐋𝐀𝐂𝐄𝐒 𝐃𝐄 𝐂𝐔𝐀𝐋𝐐𝐔𝐈𝐄𝐑 𝐏𝐀𝐆𝐈𝐍𝐀 𝐘 𝐋𝐎 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑𝐄,𝐋𝐔𝐄𝐆𝐎 𝐋𝐎 𝐒𝐔𝐁𝐈𝐑𝐄 𝐀 𝐋𝐀 𝐍𝐔𝐁𝐄☁️ 𝐘 𝐓𝐄 𝐌𝐀𝐍𝐃𝐀𝐑𝐄 𝐔𝐍 𝐓𝐗𝐓 𝐄𝐍𝐂𝐑𝐈𝐏𝐓𝐀𝐃𝐎 𝐀 𝐗𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑(descargas/subidas)\n\n'
         reply += '<a href="https://t.me/YosmelGarcia">Soporte</a>'
         message = await bot.send_message(ev.chat.id,reply,parse_mode='html')
         pass
@@ -292,7 +292,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
         message = await bot.send_message(ev.chat.id,'📡ℙ𝕣𝕠𝕔𝕖𝕤𝕒𝕟𝕕𝕠 𝔼𝕟𝕝𝕒𝕔𝕖...')
         listdir = await compress(bot,ev,text,message,username)
         try:
-            await bot.edit_message(ev.chat,message,text=f'⚡️𝗣𝗿𝗲𝗽𝗮𝗿𝗮𝗻𝗱𝗼 𝗣𝗮𝗿𝗮 𝗦𝘂𝗯𝗶𝗿...')
+            await bot.edit_message(ev.chat,message,text=f'⚡️𝐋𝐈𝐒𝐓𝐎 𝐏𝐀𝐑𝐀 𝐒𝐔𝐁𝐈𝐑⚡️...')
             session:RepoUploader = await repouploader.create_session(config.PROXY)
             resultlist = []
             txtsendname = str(listdir[0]).split('/')[-1].split('.')[0].split('_')[0] + '.txt'
@@ -333,7 +333,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             urls = []
             for item in resultlist:
                 urls.append(item.url)
-            await bot.edit_message(ev.chat,message,text=f'🔗ᴘʀᴇᴘᴀʀᴀɴᴅᴏ ᴀʀᴄʜɪᴠᴏ xᴅʟɪɴᴋ...')
+            await bot.edit_message(ev.chat,message,text=f'🔗𝐏𝐑𝐄𝐏𝐀𝐑𝐀𝐍𝐃𝐎 𝐀𝐑𝐂𝐇𝐈𝐕𝐎 𝐗𝐃𝐈𝐍𝐊...')
             data = xdlink.parse(urls)
             if data:
                 txtfile.write(data)
