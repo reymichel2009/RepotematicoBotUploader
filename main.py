@@ -112,7 +112,7 @@ def upload_progress(filename, currentBits, totalBits, speed, totaltime, args):
         print(str(ex))
 
 async def compress(bot,ev,text,message,username):
-        await  bot.edit_message(ev.chat,message,'📚𝑪𝒐𝒎𝒑𝒓𝒊𝒎𝒊𝒆𝒏𝒅𝒐 𝒍𝒂𝒔 𝒑𝒂𝒓𝒕𝒆𝒔 𝐄𝐧 𝟗𝟗𝐌𝐁...')
+        await  bot.edit_message(ev.chat,message,'📚𝑪𝒐𝒎𝒑𝒓𝒊𝒎𝒊𝒆𝒏𝒅𝒐...')
         text = str(text).replace('/rar ','')
         index = 0
         range = 0
