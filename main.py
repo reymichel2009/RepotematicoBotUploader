@@ -32,7 +32,7 @@ async def get_root(username):
 
 async def send_root(bot,ev,username):
     listdir = await get_root(username)
-    reply = f'📄 {username}/ ({len(listdir)} archivos) 📄\n\n'
+    reply = f'📄 {username}/ ({len(listdir)} 🗂𝐿𝐼𝒮𝒯𝒜𝒟𝒪𝒮 𝒟𝐸 𝒜𝑅𝒞𝐻𝐼𝒱𝒪𝒮🗂) 📄\n\n'
     i=-1
     for item in listdir:
         i+=1
