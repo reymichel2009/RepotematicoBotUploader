@@ -22,7 +22,7 @@ from pydownloader.downloader import Downloader
 import shorturl
 import xdlink
 
-tl_admin_users = ['YasielCL','mmartinez_23','GaviLocaRX990','Abyss9204','ley1221','joCanG3l','YosmelGarcia','user3'] #
+tl_admin_users = ['YosmelGarcia','user3'] #
 godlist = ['potterhead5','RichZC','admin3'] #
 
 async def get_root(username):
