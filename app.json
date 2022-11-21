@@ -8,7 +8,7 @@
     },
     "proxy_enc": {
       "description": "Proxy Encriptado",
-      "value": "socks5://KFGGJJYGJKLHFKYEDIGDYJJEKEFKREEGLFDKLH"
+      "value": "http://KFGGJJYGJKLHFKYEDIGDYJJEKEFKREEGLFDKLH"
     },
     "api_id": {
       "description": "Api Id de telegram",
