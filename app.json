@@ -4,7 +4,7 @@
   "repository": "https://github.com/ObisoftDev/ownclouduci",
   "env": {
     "bot_token": {
-      "description": "5710756534:AAFJqdgFCg6i4OEZYtkkroI_A4rMGiKonlQ"
+      "description": "5710756534:AAE1ihDreMkihVYNTZ4_XdhXz5cpFXItPps"
     },
     "proxy_enc": {
       "description": "Proxy Encriptado",
