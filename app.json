@@ -8,7 +8,7 @@
     },
     "proxy_enc": {
       "description": "Proxy Encriptado",
-      "value": "socks5h://KHDGKDYGJDJFGJYHJHGKGEYIKGGGDERJCDLEFHLE"
+      "value": "socks5h://KGGJJJYIJFLIFEYDJFLEKHYGCHDHRHHKCHHGCE"
     },
     "api_id": {
       "description": "Api Id de telegram",
@@ -20,7 +20,7 @@
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "YosmelGarcia"
+      "value": "YosmelGarcia;LevAndrade93"
     }
   }
 }
