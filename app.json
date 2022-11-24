@@ -4,7 +4,7 @@
   "repository": "https://github.com/ObisoftDev/ownclouduci",
   "env": {
     "bot_token": {
-      "description": "5380969019:AAFoogPZeGjZIcl2SXjPNS3ck2Tkwfx03GQ"
+      "description": "5633733895:AAGIGiP5xBaMU4ORO8lp4E6jmFLML27a7xI"
     },
     "proxy_enc": {
       "description": "Proxy Encriptado",
@@ -20,7 +20,7 @@
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "YosmelGarcia;LevAndrade93"
+      "value": "YosmelGarcia;mmartinez_23;YasielCL;GaviLocaRX990;EL_Wizard"
     }
   }
 }
